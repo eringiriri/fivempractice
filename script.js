@@ -1,19 +1,19 @@
 const OWN_SITES = [
     {
         name: 'Color Hack',
-        desc: 'アイコンの色を記憶して当てるハッキングミニゲームの練習サイト',
+        desc: 'アイコンの色を記憶して当てる',
         url: 'https://colorhack.eringi.me',
         github: 'https://github.com/eringiriri/colorhack',
     },
     {
         name: 'VLSI Circuit Breaker 2.0',
-        desc: '回路をつなぐタイプのハッキングミニゲームの練習サイト',
+        desc: '回路をつなぐタイプ',
         url: 'https://circuit.breaker.eringi.me',
         github: 'https://github.com/eringiriri/vlsicircuitbreaker',
     },
     {
         name: 'VOLTLAB',
-        desc: 'VOLTLABハッキングミニゲームの練習サイト',
+        desc: '軍事基地襲撃用',
         url: 'https://voltlab.eringi.me',
         github: 'https://github.com/eringiriri/VOLTLAB',
     },
@@ -41,7 +41,7 @@ function renderGrid(elementId, sites) {
         <div class="card">
             <a class="card-link" href="${site.url}" target="_blank" rel="noopener">
                 <div class="name">${site.name}</div>
-                <div class="desc">${site.desc}</div>
+                ${site.desc ? `<div class="desc">${site.desc}</div>` : ''}
                 <div class="url">${site.url.replace(/^https?:\/\//, '')}</div>
                 ${site.author ? `<div class="author">by ${site.author}</div>` : ''}
             </a>
