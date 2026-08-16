@@ -64,7 +64,7 @@ function renderGrid(elementId, sites) {
     grid.innerHTML = sites.map((site, index) => `
         <div class="card">
             <a class="card-link" href="${site.url}" target="_blank" rel="noopener">
-                <div class="name"><span class="number">${index + 1}.</span>${site.name}</div>
+                <div class="name"><span class="number">${index + 1}</span>${site.name}</div>
                 ${site.desc ? `<div class="desc">${site.desc}</div>` : ''}
                 <div class="url">${site.url.replace(/^https?:\/\//, '')}</div>
                 ${site.author ? `<div class="author">by ${site.author}</div>` : ''}
