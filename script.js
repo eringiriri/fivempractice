@@ -41,6 +41,12 @@ const OWN_SITES = [
         url: 'https://memorygrid.eringi.me',
         github: 'https://github.com/eringiriri/memorygrid',
     },
+    {
+        name: 'Code Crack',
+        desc: '数字当てゲーム(緑/黄/赤で判定)',
+        url: 'https://codecrack.eringi.me',
+        github: 'https://github.com/eringiriri/codecrack',
+    },
 ];
 
 const OTHER_SITES = [
@@ -55,10 +61,10 @@ function renderGrid(elementId, sites) {
         return;
     }
 
-    grid.innerHTML = sites.map((site) => `
+    grid.innerHTML = sites.map((site, index) => `
         <div class="card">
             <a class="card-link" href="${site.url}" target="_blank" rel="noopener">
-                <div class="name">${site.name}</div>
+                <div class="name"><span class="number">${index + 1}.</span>${site.name}</div>
                 ${site.desc ? `<div class="desc">${site.desc}</div>` : ''}
                 <div class="url">${site.url.replace(/^https?:\/\//, '')}</div>
                 ${site.author ? `<div class="author">by ${site.author}</div>` : ''}
