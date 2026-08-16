@@ -92,3 +92,24 @@ h2 {
     color: #565c85;
     font-size: 13px;
 }
+
+.site-footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #2c3357;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+    color: #6a7099;
+}
+
+.site-footer a {
+    color: #9aa0c0;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #e7e9f5;
+    text-decoration: underline;
+}
