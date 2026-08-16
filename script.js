@@ -35,6 +35,12 @@ const OWN_SITES = [
         url: 'https://fingerprint.eringi.me',
         github: 'https://github.com/eringiriri/fingerprint',
     },
+    {
+        name: 'Memory Grid',
+        desc: '配置記憶ゲーム(設定変更可)',
+        url: 'https://memorygrid.eringi.me',
+        github: 'https://github.com/eringiriri/memorygrid',
+    },
 ];
 
 const OTHER_SITES = [
