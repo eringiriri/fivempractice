@@ -29,6 +29,12 @@ const OWN_SITES = [
         url: 'https://caruta.eringi.me',
         github: 'https://github.com/eringiriri/caruta',
     },
+    {
+        name: 'Fingerprint Scanner',
+        desc: '指紋認証スキャナー(本番モードあり)',
+        url: 'https://fingerprint.eringi.me',
+        github: 'https://github.com/eringiriri/fingerprint',
+    },
 ];
 
 const OTHER_SITES = [
