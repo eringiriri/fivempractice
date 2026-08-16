@@ -23,6 +23,12 @@ const OWN_SITES = [
         url: 'https://lightsout.eringi.me',
         github: 'https://github.com/eringiriri/lightsout',
     },
+    {
+        name: 'Caruta',
+        desc: '6×4のペア当て(制限時間60秒)',
+        url: 'https://caruta.eringi.me',
+        github: 'https://github.com/eringiriri/caruta',
+    },
 ];
 
 const OTHER_SITES = [
