@@ -47,6 +47,12 @@ const OWN_SITES = [
         url: 'https://codecrack.eringi.me',
         github: 'https://github.com/eringiriri/codecrack',
     },
+    {
+        name: 'Nummeiro',
+        desc: '数字の数だけ右/下へジャンプして繋ぐ(発電機ハッキング系)',
+        url: 'https://nummeiro.eringi.me',
+        github: 'https://github.com/eringiriri/nummeiro',
+    },
 ];
 
 const OTHER_SITES = [
